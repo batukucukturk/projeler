@@ -34,10 +34,10 @@ public class SayilariSiralama {
             if (a < b) {
                 System.out.print(c + "<" + a + "<" + b);
 
-            } else {
+            } else
                 System.out.print(c + "<" + b + "<" + a);
 
-            }
+
 
         }
 

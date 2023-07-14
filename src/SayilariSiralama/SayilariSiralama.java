@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SayilariSiralama {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
-        int a, b, c, sıralama;
+        int a, b, c;
         System.out.print("Lütfen 1.Sayıyı Giriniz :");
         a = inp.nextInt();
 

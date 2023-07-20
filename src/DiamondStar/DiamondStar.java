@@ -15,15 +15,16 @@ public class DiamondStar {
             }
             System.out.println();
         }
-        for (int i=n;i>=1;i--){
-            for (int k =1;k<=n-i;k++){
+        for (int i=n;i>1;i--){
+            for (int k =n;k>=i;k--){
                 System.out.print(" ");
             }
-            for (int j=1;j<=(2*i)-1;j++){
+            for (int j=1;j<=(2*i)-3;j++){
                 System.out.print("*");
             }
             System.out.println();
         }
+
 
 
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BuyukKucukSayi {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
-        int n, number, number2, max, min, i = 1;
+        int n, number,max, min, i = 1;
         System.out.print("Kaç tane sayı gireceksiniz? :");
         n = inp.nextInt();
 

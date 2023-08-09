@@ -1,8 +1,6 @@
-package TekrarEdenCiftSayi;
+package ArrayDuplicate;
 
-import java.util.Arrays;
-
-public class TekrarEdenCiftSayi {
+public class ArrayDuplicate {
     static boolean isFind(int[] array, int value) {
         for (int i : array) {
             if (i == value) {
